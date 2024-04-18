@@ -14,7 +14,8 @@
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500&family=Jost:wght@500;600;700&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500&family=Jost:wght@500;600;700&display=swap"
+        rel="stylesheet">
 
     <!-- Icon Font Stylesheet -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
@@ -30,24 +31,46 @@
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
 </head>
+<style>
+    /* Button styles */
+    .material-button {
+        display: inline-block;
+        padding: 10px 20px;
+        border-radius: 12px;
+        background-color: rgb(250, 129, 57);
+        color: #fff;
+        text-decoration: none;
+        transition: background-color 0.3s ease;
+        cursor: pointer;
+        border: none;
+        font-size: 16px;
+        font-weight: lighter;
+    }
+
+    .material-button:hover {
+        background-color: #ff8b3b;
+        /* Change color on hover */
+    }
+</style>
 
 <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="51">
     <div class="container-xxl bg-white p-0">
         <!-- Spinner Start -->
-        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div id="spinner"
+            class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
             <div class="spinner-grow text-primary" style="width: 3rem; height: 3rem;" role="status">
                 <span class="sr-only">Loading...</span>
             </div>
         </div>
         <!-- Spinner End -->
 
-
+        <!-- #f64668 -->
         <!-- Navbar & Hero Start -->
         <div class="container-xxl position-relative p-0" id="home">
             <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
                 <a href="" class="navbar-brand p-0">
-                    <h1 class="m-0">Jewecle</h1>
-                    <!-- <img src="img/logo.png" alt="Logo"> -->
+                    <!-- <h1 class="m-0">Jewecle</h1> -->
+                    <img src="img/logo.png" alt="Logo">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                     <span class="fa fa-bars"></span>
@@ -59,7 +82,15 @@
                         <!-- <a href="#feature" class="nav-item nav-link">Screenshot</a>
                         <a href="#pricing" class="nav-item nav-link">How it works</a> -->
                         <!-- <a href="#review" class="nav-item nav-link"></a> -->
-                        <!-- <a href="#contact" class="nav-item nav-link">Contact</a> -->
+                        <a href="#contact" class="nav-item nav-link">Contact</a>
+                        <a href="#policy" class="nav-item nav-link">Policies</a>
+                        <a href="terms_and_conditions.html" target="_blank" class="nav-item nav-link">Terms and
+                            Conditions</a>
+                    </div>
+                    <div class="d-flex">
+                        <a href="https://supplier.jewecle.com" target="_blank" class="material-button me-2">Become
+                            Supplier</a>
+                        <!-- <a href="https://supplier.jewecle.com" target="_blank" class="material-button">Retailer</a> -->
                     </div>
                     <!-- <a href="" class="btn btn-primary-gradient rounded-pill py-2 px-4 ms-3 d-none d-lg-block">Start Free Trial</a> -->
                 </div>
@@ -69,20 +100,24 @@
                 <div class="container px-lg-5">
                     <div class="row g-5">
                         <div class="col-lg-8 text-center text-lg-start">
-                            <h1 class="text-white mb-4 animated slideInDown">The Whole revolutionary jewellery electronic supply chain.
-                                </h1>
-                                <h4 class="text-white mb-4 animated slideInDown">Now each jewellery totally yours!</h4>
+                            <h1 class="text-white mb-4 animated slideInDown">The Whole revolutionary jewellery
+                                electronic supply chain.
+                            </h1>
+                            <h4 class="text-white mb-4 animated slideInDown">Now each jewellery totally yours!</h4>
                             <!-- <p class="text-white pb-3 animated slideInDown">Tempor rebum no at dolore lorem clita rebum rebum ipsum rebum stet dolor sed justo kasd. Ut dolor sed magna dolor sea diam. Sit diam sit justo amet ipsum vero ipsum clita lorem</p> -->
                             <!-- <a href="" class="btn btn-primary-gradient py-sm-3 px-4 px-sm-5 rounded-pill me-3 animated slideInLeft">Read More</a>
                             <a href="" class="btn btn-secondary-gradient py-sm-3 px-4 px-sm-5 rounded-pill animated slideInRight">Contact Us</a> -->
                         </div>
-                        <div class="col-lg-4 d-flex justify-content-center justify-content-lg-end wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="col-lg-4 d-flex justify-content-center justify-content-lg-end wow fadeInUp"
+                            data-wow-delay="0.3s">
                             <div class="owl-carousel screenshot-carousel">
-                                <img class="img-fluid" src="img/immm.jpg" alt="">
-                                <img class="img-fluid" src="img/i1.png" alt="">
-                                <img class="img-fluid" src="img/i2.jpeg" alt="">
-                                <img class="img-fluid" src="img/screenshot-4.png" alt="">
-                                <img class="img-fluid" src="img/screenshot-5.png" alt="">
+                                <img class="img-fluid" src="img/1.jpg" alt="">
+                                <img class="img-fluid" src="img/2.jpg" alt="">
+                                <img class="img-fluid" src="img/3.jpg" alt="">
+                                <img class="img-fluid" src="img/4.jpg" alt="">
+                                <img class="img-fluid" src="img/5.jpg" alt="">
+                                <img class="img-fluid" src="img/6.jpg" alt="">
+                                <img class="img-fluid" src="img/7.jpg" alt="">
                             </div>
                         </div>
                     </div>
@@ -96,13 +131,90 @@
         <div class="container-xxl py-5" id="about">
             <div class="container py-5 px-lg-5">
                 <div class="row g-5 align-items-center">
-                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-                        <h5 class="text-primary-gradient fw-medium">About Us</h5>
+                    <div class="col-lg-12 wow fadeInUp" data-wow-delay="0.1s">
+                        <h1 class="text-primary-gradient fw-medium">About Us</h1>
                         <!-- <h1 class="mb-4">#1 App For Your Fitness</h1> -->
-                        <p class="mb-4">We, as a Jewecle business, pledged to overcome major loopholes in the jewellery market in India. Finalizing the mission to grow each retailer's sales and customer retention rate by unlimited numbers. By building a strong technical outcome as software containing the infinite designs of gold jewellery, in addition, we are creating a single search option that lets you find your choice of jewellery instantly.
+                        <p>
+                            At Jewecle Business, we are dedicated to revolutionizing the way of traditional gold
+                            jewellery industry operates between manufacturers and retailers. Founded in 2022, our
+                            journey began with a vision to improve the brand identity and jewellery product
+                            diversification to both side. In added that, we also strive for the new AR technological era
+                            in jewellery industry. Since then, we have grown into a dynamic team of passionate
+                            individuals driven by innovation and a commitment to excellence.
                         </p>
-                        <p class="mb-4">Today's market is a design market; more stock - more design - more customer satisfaction - more loyalty - more customer retention - more profit. Grow with 0 rupee investment system. 
+                        <p>
+                            Our mission is clear: to serve every jeweller through our best quality platform which can
+                            help them to grow their business. Through Augmented Reality technique, we strive to
+                            eliminate old catalogue and make the order system. Whether it's DESIGHAT designs, JADATAR
+                            designs, or ROSEGOLD designs, we aim to organise the whole B2B jewellery market.
                         </p>
+                        <p>
+                            At the heart of our company is our unwavering dedication to our customers. We believe in
+                            building lasting relationships by providing unparalleled quality and after-sales services to
+                            our customers. Our customer-centric approach ensures that every interaction with us is
+                            seamless and rewarding.
+                        </p>
+                        <p>
+                            Innovation is in our DNA. We continuously push the boundaries of the real gold and diamond
+                            jewellery market by our innovative website and application-based software. Our team of
+                            experts works tirelessly to stay ahead of the curve and anticipate the needs of tomorrow.
+                        </p>
+                        <p>
+                            But our success isn't just measured by our achievements; it's also defined by our values.
+                            Integrity, collaboration, and accountability are not just words to us — they are the guiding
+                            principles that shape everything we do.
+                        </p>
+                        <p>
+                            As we look to the future, we are excited about the possibilities that lie ahead. With
+                            quality photo search and jewellery GPT concept, we are poised to create futuristic jewellery
+                            software. Together, we can create a world where the normal jeweller can impact as same as
+                            corporates.
+                        </p>
+                        <p>
+                            We look forward to having your interest in building this excellent futuristic journey.
+                        </p>
+                        <section id="founders">
+                            <h3>Meet Our Founders</h3>
+                            <ul>
+                                <li>
+                                    <strong class="text-primary">PARTH DHOLAKIYA - CEO & Co-Founder</strong>
+                                    <p>Parth is a visionary leader with a passion for the jewellery industry and design.
+                                        With 5 years of experience in the retail jewellery market, he brings a wealth of
+                                        knowledge and expertise to Jewecle Business. Through his vision and excellence
+                                        in the jewellery market, we have started this Jewecle journey, and launched
+                                        successful SaaS products in this industry. He is committed to Jewecle's mission
+                                        of serving every jeweller through our best quality platform which can help them
+                                        to grow their business. He focuses on the execution of every operation in
+                                        Jewecle.</p>
+                                </li>
+                                <li>
+                                    <strong class="text-primary">JEET ADESHARA - CTO & Co-Founder</strong>
+                                    <p>As the Chief Technology Officer and Co-Founder of Jewecle, Jeet is the driving
+                                        force behind our innovative solutions. With a background in full-stack web
+                                        development and 5 years of experience in the Software industry, he has played a
+                                        pivotal role in shaping our cutting-edge technologies. Through his achievements
+                                        and expertise in technology, he is dedicated to pushing the boundaries of what's
+                                        possible in the jewellery industry.</p>
+                                </li>
+                            </ul>
+                        </section>
+                        <section id="team">
+                            <h3>Our Team</h3>
+                            <ul>
+                                <li class="text-primary">Simran Kaur (Frontend developer, Jewecle)</li>
+                                <li class="text-primary">Radhika Dholakiya (Financial researcher and adviser, Jewecle)
+                                </li>
+                                <li class="text-primary">Yatri Patel (Figma designer, Jewecle)</li>
+                                <li class="text-primary">Smit Sohagiya (Backend developer, Jewecle)</li>
+                                <li class="text-primary">Sumit Gorwadiya (App developer, Jewecle)</li>
+                                <li class="text-primary">Pruthvik Seth (Augmented Reality tech-developer, Jewecle)</li>
+                                <li class="text-primary">Paragti Jogani (App developer, Jewecle)</li>
+                            </ul>
+                        </section>
+                        <section id="motto">
+                            <h3>Our Motto</h3>
+                            <p class="text-primary-gradient">"LET'S THINK BEYOND JEWELLERY"</p>
+                        </section>
                         <!-- <div class="row g-4 mb-4">
                             <div class="col-sm-6 wow fadeIn" data-wow-delay="0.5s">
                                 <div class="d-flex">
@@ -125,9 +237,9 @@
                         </div> -->
                         <!-- <a href="" class="btn btn-primary-gradient py-sm-3 px-4 px-sm-5 rounded-pill mt-3">Read More</a> -->
                     </div>
-                    <div class="col-lg-6">
+                    <!-- <div class="col-lg-6">
                         <img class="img-fluid wow fadeInUp" data-wow-delay="0.5s" src="img/about.png">
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
@@ -207,7 +319,7 @@
             <div class="container py-5 px-lg-5">
                 <div class="row g-5 align-items-center">
                     <div class="col-lg-8 wow fadeInUp" data-wow-delay="0.1s">
-                        <h5 class="text-primary-gradient fw-medium">Screenshot</h5>
+                        <h1 class="text-primary-gradient fw-medium">Screenshot</h1>
                         <h1 class="mb-4">User Friendly interface And Very Easy To Use Jewecle App</h1>
                         <!-- <p class="mb-4">Diam dolor diam ipsum et tempor sit. Aliqu diam amet diam et eos labore. Clita erat ipsum et lorem et sit, sed stet no labore lorem sit clita duo justo eirmod magna dolore erat amet</p>
                         <p><i class="fa fa-check text-primary-gradient me-3"></i>Diam dolor diam ipsum et tempor sit</p>
@@ -215,13 +327,16 @@
                         <p class="mb-4"><i class="fa fa-check text-primary-gradient me-3"></i>Clita erat ipsum et lorem et sit</p> -->
                         <!-- <a href="" class="btn btn-primary-gradient py-sm-3 px-4 px-sm-5 rounded-pill mt-3">Read More</a> -->
                     </div>
-                    <div class="col-lg-4 d-flex justify-content-center justify-content-lg-end wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="col-lg-4 d-flex justify-content-center justify-content-lg-end wow fadeInUp"
+                        data-wow-delay="0.3s">
                         <div class="owl-carousel screenshot-carousel">
-                            <img class="img-fluid" src="img/screenshot-1.png" alt="">
-                            <img class="img-fluid" src="img/screenshot-2.png" alt="">
-                            <img class="img-fluid" src="img/screenshot-3.png" alt="">
-                            <img class="img-fluid" src="img/screenshot-4.png" alt="">
-                            <img class="img-fluid" src="img/screenshot-5.png" alt="">
+                            <img class="img-fluid" src="img/1.jpg" alt="">
+                            <img class="img-fluid" src="img/2.jpg" alt="">
+                            <img class="img-fluid" src="img/3.jpg" alt="">
+                            <img class="img-fluid" src="img/4.jpg" alt="">
+                            <img class="img-fluid" src="img/5.jpg" alt="">
+                            <img class="img-fluid" src="img/6.jpg" alt="">
+                            <img class="img-fluid" src="img/7.jpg" alt="">
                         </div>
                     </div>
                 </div>
@@ -240,7 +355,8 @@
                 <div class="row gy-5 gx-4 justify-content-center">
                     <div class="col-lg-4 col-sm-6 text-center pt-4 wow fadeInUp" data-wow-delay="0.1s">
                         <div class="position-relative bg-light rounded pt-5 pb-4 px-4">
-                            <div class="d-inline-flex align-items-center justify-content-center bg-primary-gradient rounded-circle position-absolute top-0 start-50 translate-middle shadow" style="width: 100px; height: 100px;">
+                            <div class="d-inline-flex align-items-center justify-content-center bg-primary-gradient rounded-circle position-absolute top-0 start-50 translate-middle shadow"
+                                style="width: 100px; height: 100px;">
                                 <i class="fa fa-cog fa-3x text-white"></i>
                             </div>
                             <h5 class="mt-4 mb-3">Registered Yourself</h5>
@@ -249,7 +365,8 @@
                     </div>
                     <div class="col-lg-4 col-sm-6 text-center pt-4 wow fadeInUp" data-wow-delay="0.3s">
                         <div class="position-relative bg-light rounded pt-5 pb-4 px-4">
-                            <div class="d-inline-flex align-items-center justify-content-center bg-secondary-gradient rounded-circle position-absolute top-0 start-50 translate-middle shadow" style="width: 100px; height: 100px;">
+                            <div class="d-inline-flex align-items-center justify-content-center bg-secondary-gradient rounded-circle position-absolute top-0 start-50 translate-middle shadow"
+                                style="width: 100px; height: 100px;">
                                 <i class="fa fa-address-card fa-3x text-white"></i>
                             </div>
                             <h5 class="mt-4 mb-3">Add Products</h5>
@@ -258,7 +375,8 @@
                     </div>
                     <div class="col-lg-4 col-sm-6 text-center pt-4 wow fadeInUp" data-wow-delay="0.5s">
                         <div class="position-relative bg-light rounded pt-5 pb-4 px-4">
-                            <div class="d-inline-flex align-items-center justify-content-center bg-primary-gradient rounded-circle position-absolute top-0 start-50 translate-middle shadow" style="width: 100px; height: 100px;">
+                            <div class="d-inline-flex align-items-center justify-content-center bg-primary-gradient rounded-circle position-absolute top-0 start-50 translate-middle shadow"
+                                style="width: 100px; height: 100px;">
                                 <i class="fa fa-check fa-3x text-white"></i>
                             </div>
                             <h5 class="mt-4 mb-3">Start Reselling</h5>
@@ -538,7 +656,7 @@
 
 
         <!-- Contact Start -->
-        <!-- <div class="container-xxl py-5" id="contact">
+        <div class="container-xxl py-5" id="contact">
             <div class="container py-5 px-lg-5">
                 <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
                     <h5 class="text-primary-gradient fw-medium">Contact Us</h5>
@@ -547,7 +665,7 @@
                 <div class="row justify-content-center">
                     <div class="col-lg-9">
                         <div class="wow fadeInUp" data-wow-delay="0.3s">
-                            <p class="text-center mb-4">The contact form is currently inactive. Get a functional and working contact form with Ajax & PHP in a few minutes. Just copy and paste the files, add a little code and you're done. <a href="https://htmlcodex.com/contact-form">Download Now</a>.</p>
+                            <!-- <p class="text-center mb-4">The contact form is currently inactive. Get a functional and working contact form with Ajax & PHP in a few minutes. Just copy and paste the files, add a little code and you're done. <a href="https://htmlcodex.com/contact-form">Download Now</a>.</p>
                             <form>
                                 <div class="row g-3">
                                     <div class="col-md-6">
@@ -578,14 +696,82 @@
                                         <button class="btn btn-primary-gradient rounded-pill py-3 px-5" type="submit">Send Message</button>
                                     </div>
                                 </div>
-                            </form>
+                            </form> -->
+                            <h1>Contact Us</h1>
+                            <p>Thank you for using Jewecle! We're here to assist you with any questions or concerns you
+                                may have. Feel free to reach out to us using any of the following methods:</p>
+
+                            <h2>Email Support</h2>
+                            <p>For general inquiries, feedback, or assistance, please email us at <a
+                                    href="mailto:jeweclebusiness@gmail.com">jeweclebusiness@gmail.com</a>. Our support
+                                team will get back to you as soon as possible.</p>
+
+                            <h2>Business Inquiries</h2>
+                            <p>For business-related inquiries, partnerships, or collaboration opportunities, please
+                                contact our business development team at <a
+                                    href="mailto:jeweclebusiness@gmail.com">jeweclebusiness@gmail.com</a>.</p>
+
+                            <h2>Report a Bug</h2>
+                            <p>Encountered a bug or technical issue? Help us improve by reporting it! Send an email to
+                                <a href="mailto:jeweclebusiness@gmail.com">jeweclebusiness@gmail.com</a> with a detailed
+                                description of the problem, including steps to reproduce it, and any relevant
+                                screenshots or error messages.
+                            </p>
+
+                            <h2>Call Support</h2>
+                            <p>Jewecle Support: <a href="tel:+919601947091">+91-9601947091</a>, <a
+                                    href="tel:+918200832464">+91-8200832464</a></p>
+
+                            <p>We value your feedback and are committed to providing you with excellent service. Thank
+                                you for choosing Jewecle.</p>
+
                         </div>
                     </div>
                 </div>
             </div>
-        </div> -->
+        </div>
+
         <!-- Contact End -->
-        
+
+        <div class="container-xxl py-5" id="policy">
+            <div class="container py-5 px-lg-5">
+                <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                    <h1 class="text-primary-gradient fw-medium text-center wow fadeInUp mb-5">Policies</h1>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-lg-9">
+                        <div class="wow fadeInUp" data-wow-delay="0.3s">
+                            <section id="policies">
+
+                                <h2>Application Privacy Policy</h2>
+                                <p>Here, you can find the privacy policy for our Jewecle Business application. Please
+                                    review
+                                    it carefully to understand how we collect, use, and handle your personal information
+                                    within the application.</p>
+                                <p><a href="app_policy.html" target="_blank">Application Privacy Policy</a></p>
+
+
+                                <h2>Supplier Panel Privacy Policy</h2>
+                                <p>Below is the privacy policy for our Jewecle Supplier Panel website. Take a moment to
+                                    read
+                                    through it to understand how we handle your personal information when you visit our
+                                    website.</p>
+                                <p><a href="supplier_policy.html" target="_blank">Supplier Panel Privacy Policy</a></p>
+
+                                <h2>Cancellation/Refund Policy</h2>
+                                <p>Below is the privacy policy for Cancellation/Refund. Take a moment to read
+                                    through it to understand how we handle Cancellation/Refund when you use our
+                                    app.</p>
+                                <p><a href="cancellation_refund.html" target="_blank">Cancellation/Refund Policy</a></p>
+                            </section>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
 
         <!-- Footer Start -->
         <div class="container-fluid bg-primary text-light footer wow fadeIn" data-wow-delay="0.1s">
@@ -651,9 +837,9 @@
                 </div> 
             </div> -->
             <div class="container">
-                <h1  style="font-size: xxx-large;     color: white;   text-align: center;
+                <h1 style="font-size: xxx-large;     color: white;   text-align: center;
                 position: relative;
-                top: 7rem;">Coming Soon...</h1>
+                top: 7rem;">Thanks for visiting</h1>
             </div>
         </div>
         <!-- Footer End -->
