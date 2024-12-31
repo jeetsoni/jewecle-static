@@ -425,19 +425,10 @@ h6,
 
 /*** Footer ***/
 .footer {
-    height: 58vh;
     margin-top: 6rem;
     padding-top: 9rem;
-    background:
-        url(../img/bg-circle.png),
-        url(../img/bg-triangle.png),
-        url(../img/bg-top.png),
-        linear-gradient(to bottom right, #0a2647, #0a2647);
-    background-position:
-        left 0px bottom 0px,
-        right 0px top 50%,
-        center top;
-    background-repeat: no-repeat;
+    background: url(../img/footer-bg.png) center bottom no-repeat;
+    background-size: contain;
 }
 
 .footer .btn.btn-social {
@@ -488,6 +479,10 @@ h6,
 
 .footer .copyright a {
     color: var(--light);
+}
+
+.footer .copyright a:hover {
+    color: var(--primary);
 }
 
 .footer .footer-menu a {
